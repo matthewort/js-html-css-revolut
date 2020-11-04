@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  min-height: 100px;
+  border: solid 1px black;
+  justify-content: flex-end;
+}
+
+.mainnav > ul > li {
+  display: inline-block;
+}
+
+.dropitem1 {
+  position: relative;
+}
+
+/* dropdown di link1  */
+.dropdown1 {
+  display: none;
+  position: absolute;
+}
+
+.dropitem2 {
+  position: relative;
+}
+
+/* dropdown di link2  */
+.dropdown2 {
+  display: none;
+  position: absolute;
+}
+
+.dropitem3 {
+  position: relative;
+}
+
+/* dropdown di link3 */
+.dropdown3 {
+  display: none;
+  position: absolute;
+}
+
+.dbloc {
+  display: block;
+}
