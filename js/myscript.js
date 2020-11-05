@@ -28,16 +28,17 @@ $("li.dropitem4").click(function() {
 
 // devo fare una sezione per le funzioni
 // probabilmente per aprire un dropdown uno alla volta devo usare il this?
+// devo scrivere nella condizione l'esclusione di tutti gli altri dropdown ai quali va rimosso il dbloc eccetto quello cliccato
 function toggleClass(m) {
 if ($(".dropdown1").toggleClass("dbloc")) {
-  $(".dropdown2").removeClass("dbloc")
+  $(".dropdown2").removeClass("dbloc");
+  $(".dropdown3").removeClass("dbloc");
+  $(".dropdown4").removeClass("dbloc");
+
 } else {
 
 }
 }
-
-
-
 
 
 });
