@@ -8,7 +8,7 @@
 // 5.consiglio: degli eventuali casi limte/controlli (es. voglio che sia aperto solo un dropdown alla volta, preoccupatevi alla fine).
 $(document).ready(function () {
 
-$("li.dropitem1").click(function() {
+$("li.dropitem1").click(function(m) {
   $(".dropdown1").toggleClass("dbloc");
 });
 
@@ -19,5 +19,25 @@ $("li.dropitem2").click(function() {
 $("li.dropitem3").click(function() {
   $(".dropdown3").toggleClass("dbloc");
 });
+
+$("li.dropitem4").click(function() {
+  $(".dropdown4").toggleClass("dbloc");
+});
+
+// FUNZIONI
+
+// devo fare una sezione per le funzioni
+// probabilmente per aprire un dropdown uno alla volta devo usare il this?
+function toggleClass(m) {
+if ($(".dropdown1").toggleClass("dbloc")) {
+  $(".dropdown2").removeClass("dbloc")
+} else {
+
+}
+}
+
+
+
+
 
 });

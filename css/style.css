@@ -4,16 +4,45 @@
   box-sizing: border-box;
 }
 
-header {
+/* inizio container1 */
+.container1 {
+  width: 50%;
   padding: 10px;
   display: flex;
-  min-height: 100px;
+  min-height: 200px;
   border: solid 1px black;
-  justify-content: flex-end;
+  padding-left: 200px;
+  justify-content: flex-start;
+  align-items: center;
+  float: left;
 }
 
-.mainnav > ul > li {
+li {
+  margin-left: 60px;
+  list-style: none;
+}
+
+.mainnav1 li {
   display: inline-block;
+  text-align: center;
+}
+
+/* inizio container2 */
+.container2 {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  min-height: 200px;
+  border: solid 1px black;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 200px;
+  float: left;
+}
+
+.mainnav2 li {
+  display: inline-block;
+  text-align: center;
 }
 
 .dropitem1 {
@@ -24,6 +53,7 @@ header {
 .dropdown1 {
   display: none;
   position: absolute;
+  border: solid 1px black;
 }
 
 .dropitem2 {
@@ -34,6 +64,7 @@ header {
 .dropdown2 {
   display: none;
   position: absolute;
+  border: solid 1px black;
 }
 
 .dropitem3 {
@@ -44,6 +75,18 @@ header {
 .dropdown3 {
   display: none;
   position: absolute;
+  border: solid 1px black;
+}
+
+.dropitem4 {
+  position: relative;
+}
+
+/* dropdown di link4 */
+.dropdown4 {
+  display: none;
+  position: absolute;
+  border: solid 1px black;
 }
 
 .dbloc {
